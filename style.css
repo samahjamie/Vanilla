@@ -1,0 +1,113 @@
+:root {
+    --body-color: linear-gradient(100deg,#d95387, #c8a4b2);
+    --heading-color: whitesmoke;
+    --text-color: #63687e;
+}
+  
+.dark {
+    --body-color:linear-gradient(100deg, #5e285d, #9c559a);
+    --heading-color: #dfc2e0;
+    --text-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: var(--body-color);
+    color: whitesmoke;
+    font-family: 'Indie Flower', 'Courier New', monospace;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+header,
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.2em;
+    border-color: #ceb3d5;
+    background: whitesmoke;
+}
+
+::placeholder {
+    color: rgb(189, 78, 121);
+    font-family: 'Indie Flower', 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+form button {
+    color: rgb(189, 78, 121);
+    background: whitesmoke;
+    font-family: 'Indie Flower', 'Courier New', monospace;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: rgb(189, 78, 121);
+    color: whitesmoke;
+}
+
+.fas {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: var(--heading-color);
+}
+  
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+min-width: 30%;
+list-style: none;
+}
+
+.todo {
+margin: 0.5rem;
+background: whitesmoke;
+color: gray;
+font-size: 1.5rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.delete-btn,
+.complete-btn,
+.edit-btn {
+background: #c994a8;
+color: #9c559a;
+padding: 1rem;
+cursor: pointer;
+font-size: 1rem;
+}
+.complete-btn {
+    background: #742e49;
+}
+.edit-btn {
+    background:rgb(196, 78, 123);
+}
