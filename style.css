@@ -1,7 +1,8 @@
 :root {
     --body-color: linear-gradient(100deg,#d95387, #c8a4b2);
-    --heading-color: whitesmoke;
+    --heading-color: rgb(245, 245, 245);
     --text-color: #63687e;
+    
 }
   
 .dark {
@@ -38,10 +39,12 @@ form {
 form input,
 form button {
     padding: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     border-radius: 0.2em;
     border-color: #ceb3d5;
     background: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
 ::placeholder {
@@ -54,8 +57,10 @@ form button {
     color: rgb(189, 78, 121);
     background: whitesmoke;
     font-family: 'Indie Flower', 'Courier New', monospace;
-    font-size: 1.2em;
+    font-size: 1.1em;
     cursor: pointer;
+    margin: 0.5rem;
+    padding: 0.5rem;
 }
 
 form button:hover {
@@ -63,7 +68,7 @@ form button:hover {
     color: whitesmoke;
 }
 
-.fas {
+.fa-star-half-alt {
     cursor: pointer;
     position: absolute;
     top: 10px;
@@ -100,8 +105,9 @@ align-items: center;
 .complete-btn,
 .edit-btn {
 background: #c994a8;
-color: #9c559a;
-padding: 1rem;
+color: #e2cfe2;
+padding: 0.5rem;
+margin: 0.1rem;
 cursor: pointer;
 font-size: 1rem;
 }
@@ -110,4 +116,8 @@ font-size: 1rem;
 }
 .edit-btn {
     background:rgb(196, 78, 123);
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
 }
