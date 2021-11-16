@@ -1,4 +1,3 @@
-
 //calling and accessing the toggle elements
 let toggleBtn = document.querySelector('.fa-star-half-alt')
 let bodyElement = document.querySelector('body')
