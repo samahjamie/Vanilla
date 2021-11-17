@@ -1,7 +1,6 @@
 * [Project name](#about)
 * [Description](#desc)
 * [User stories](#stories)
-* [Installation](#install)
 
 
 
