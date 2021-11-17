@@ -17,11 +17,3 @@ Vanilla is a simple todo list app, built to keep track of tasks that need to be 
 1. As a user, I should be able to edit my to-dos.
 1. As a user, I should be able to remove any to-do from my list (remove it from local storage).
 1. As a user, I can still have my list even if I close the browser window.
-
-### **Installation** <span id='install'></span>
-1. Clone the repo.
-```
-git clone https://github.com/GSG-CF04/ToDoList_04.git
-```
-2. Open index.html.
-3. Enjoy the jounery.
